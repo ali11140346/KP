@@ -1,0 +1,26 @@
+
+RewriteEngine on
+
+RewriteRule ^dashboard$ index.php?page=home [L]
+RewriteRule ^master-komplek$ index.php?page=master-komplek [L]
+RewriteRule ^master-pendidikan-formal$ index.php?page=master-pendidikan-formal [L]
+RewriteRule ^master-tahun-ajaran$ index.php?page=master-tahun-ajaran [L]
+RewriteRule ^master-pendidikan-wali$ index.php?page=master-pendidikan-wali [L]
+RewriteRule ^master-pendidikan-almunawwir$ index.php?page=master-pendidikan-almunawwir [L]
+RewriteRule ^master-pekerjaan$ index.php?page=master-pekerjaan [L]
+RewriteRule ^master-penghasilan$ index.php?page=master-penghasilan [L]
+RewriteRule ^data-admin$ index.php?page=data-admin [L]
+
+RewriteRule ^data-santri$ index.php?page=data-santri [L] 
+RewriteRule ^tambah-santri$ index.php?page=tambah-santri [L]
+RewriteRule ^grafik-santri$ index.php?page=grafik-jumlah-santri [L]
+RewriteRule ^detail-santri$ index.php?page=detail-santri [L]
+
+
+RewriteRule ^out$ page/keluar.php [L]
+ErrorDocument 404 http://4113100.ft.unipdu.ac.id/sipemilu/404.php
+<IfModule mod_rewrite.c> 
+
+RewriteEngine On
+
+</IfModule>
